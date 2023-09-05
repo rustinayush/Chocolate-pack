@@ -1,0 +1,14 @@
+.chocolate-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+  flex-direction: row;
+}
+
+/* Adjust this for smaller screens */
+@media (max-width: 768px) {
+  .chocolate {
+    width: calc(50% - 20px); /* 2 cards in a row on smaller screens */
+  }
+}
